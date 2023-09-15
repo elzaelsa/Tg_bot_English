@@ -56,5 +56,5 @@ def b1(message):
     if message.text == 'Теория':
         bot.send_message(message.from_user.id, 'Давай тогда начем. Вот 1 урок:')
 
-
+# hello world
 bot.infinity_polling()
